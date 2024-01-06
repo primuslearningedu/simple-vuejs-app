@@ -5,15 +5,15 @@ name: Node.js CI
 
 on:
   workflow_dispatch:
-    inputs:
-      environment:
-        description: 'environment to run the pipeline on'
-        required: true
-        default: 'dev'
-        type: choice
-        options:
-          - dev
-          - prod
+    # inputs:
+      # environment:
+      #   description: 'environment to run the pipeline on'
+      #   required: true
+      #   default: 'dev'
+      #   type: choice
+      #   options:
+      #     - dev
+      #     - prod
   # push:
   #   branches: [ "master" ]
   # pull_request:
